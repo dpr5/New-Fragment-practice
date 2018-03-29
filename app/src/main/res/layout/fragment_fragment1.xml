@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.retrofit.ranad_000.fragment.Fragment1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/butsend"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:text="Send Back Data"/>
+
+</RelativeLayout>

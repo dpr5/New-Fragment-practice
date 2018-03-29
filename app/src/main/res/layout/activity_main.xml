@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.retrofit.ranad_000.fragment.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Button1"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/editText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentFrame"
+        android:layout_below="@+id/btn2">
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
